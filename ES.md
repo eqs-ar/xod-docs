@@ -1,8 +1,8 @@
-XOD Documentation
-This repository contains the source of XOD documentation which is served at https://xod.io/docs/
+Documentación XOD
+Este repositorio contiene la fuente de documentación XOD que se sirve en: https://xod.io/docs/
 
-Structure overview
-All content sources are under ./docs directory. Each subdirectory (and the root ./docs as well) correspond to a single page on https://xod.io/docs/. If a user requests https://xod.io/docs/foo/bar/ the system looks for a ./docs/foo/bar/README.md file.
+Descripción general de la estructura
+Todas las fuentes de contenido se encuentran en el directorio ./docs. Cada subdirectorio (y la raíz ./docs también) corresponden a una sola página en https://xod.io/docs/. Si un usuario solicita https://xod.io/docs/foo/bar/, el sistema busca un archivo ./docs/foo/bar/README.md.
 
 The README.md is an entry point for each page. It’s a file written in Markdown syntax so that the authors can focus on content rather than on layout issues. Nevertheless, README.md may include raw HTML and Handlebars template mixins for cases when a page is hard to write in plain Markdown. As you might expect, README.md may also refer to images and other asset files located next to it.
 
